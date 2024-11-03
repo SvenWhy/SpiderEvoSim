@@ -62,7 +62,7 @@ class Player{
     float HEAD_R = 20;
     g.pushMatrix();
     g.translate(0,0,4*SCALE_Z+HEAD_R);
-    g.fill(255,255,0);
+    g.fill(255,150,50);
     g.sphere(HEAD_R);
     g.popMatrix();
     g.popMatrix();
